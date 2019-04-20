@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# xlsformr: Creating XLSForms for Open Data Kit Using R
+# xlsformr: Creating XLSForms for Open Data Kit Using R <img src="man/figures/xlsformr.png" width="200px" align="right" />
 
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
