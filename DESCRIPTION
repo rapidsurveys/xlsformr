@@ -1,13 +1,19 @@
 Package: xlsformr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Creating XLSForms for Open Data Kit Using R
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
+    email = "ernestgmd@gmail.com", role = c("aut", "cre"))
+Description: Open Data Kit (ODK) uses a low-level form specification based on
+    XForms. However, XForms can still prove challenging to use for creating
+    forms. XLSForm, a high-level spreadsheet-based form specification, has been
+    developed to facilitate creation of ODK forms for majority of users as it
+    uses a tool that is familiar with most. This package provides functions to
+    create an XLSForm using R.
+License: MIT + file LICENSE
 Imports: openxlsx,
     readxl
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/rapidsurveys/xlsformr
+BugReports: https://github.com/rapidsurveys/xlsformr/issues
